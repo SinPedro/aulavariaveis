@@ -1,0 +1,34 @@
+questao numero 1:
+
+Primeiro o código de execução irá mostrar apenas a variável de letra "B"
+após a 4 linha irá aparecer um novo resultado para variável "B", lembrando
+que só podera ocorrer essa alteração no valor devido ao tipo de varável que
+está sendo declarado.
+
+questao numero 2:
+
+Após a execução, sendo pedido pelo console LOG as 3 letras, variáveis,
+irá aparecer na sequência:
+
+("10,10,10")
+
+questao numero 3:
+
+Sendo pedido pelo console duas perguntas sendo a primeira:
+"Quantas horas você trabalha por dia?"
+código apresentado: let a = prompt("Quantas horas você trabalha....?");
+código melhorado: let horasDia = prompt("Quantas...?");
+                  console.log(horasDia);
+-----------------------------------------------------------------------
+código apresentado: let b = prompt("Quanto você recebe por dia??");
+código melhorado: let valorDia = prompt("Quanto você recebe por dia?");
+                  console.log(valorDia);
+-----------------------------------------------------------------------
+para dar a resposta você deve criar uma operação de divisão do valor por dia
+pela quantidade de horas trabalhadas.
+
+                  let valorporHora = horasDia/valorDia 
+// resposta do alerta na tela:
+alert("voce ganha por hora:" valorporHora)
+
+-----------------------------------------------------------------------
